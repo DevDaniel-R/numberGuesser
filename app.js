@@ -14,3 +14,10 @@ let min = 1,
 
 //ui elements
 const game = doccumentGetElementById('game'),
+  minNum = querySelector('#game'),
+  maxNum = querySelector('.min-num'),
+  guessBtn = querySelector('.max-num'),
+  guessInput = querySelector('#guess-btn'),
+  message = querySelector('.message');
+
+// Assign UI
