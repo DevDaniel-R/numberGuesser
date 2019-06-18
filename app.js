@@ -20,4 +20,16 @@ const game = doccumentGetElementById('game'),
   guessInput = querySelector('#guess-btn'),
   message = querySelector('.message');
 
-// Assign UI
+// Assign UI min and max
+minNum.textContent = min;
+maxNum.textContent = max;
+
+//listen for guess
+guessBtn.addEventListener('click', function () {
+      let guess = parseInt(guessInput.value);
+
+      //validate
+      if (guess === NaN || guess < min || guess > max) {
+        setMessage('Please enter a number between ${min} and ${})
+        }
+      })
