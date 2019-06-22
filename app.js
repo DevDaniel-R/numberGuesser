@@ -76,6 +76,8 @@ function gameOver(won, msg) {
   message.style.color = color;
   //set message
   setMessage(msg);
+
+  //Play again
 }
 
 //set message
