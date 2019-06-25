@@ -78,6 +78,8 @@ function gameOver(won, msg) {
   setMessage(msg);
 
   //Play again
+  guessBtn.value = "Play Again";
+  guessBtn.className += "play-again";
 }
 
 //set message
